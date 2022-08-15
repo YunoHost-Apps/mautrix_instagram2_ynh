@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/mautrix/instagram/archive/refs/tags/v0.1.3.tar.gz
+SOURCE_SUM=c839fd0cbd7f42e1e237f070d8d9560a5df8ca0a60a40d1a17aa1a487dde9aaf
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
-SOURCE_EXTRACT=true
+SOURCE_EXTRACT=false
