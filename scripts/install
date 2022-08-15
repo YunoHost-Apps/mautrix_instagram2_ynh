@@ -187,7 +187,7 @@ ynh_exec_as $app $final_path/bin/pip3 install $final_path/src/mautrix-instagram.
 # REGISTER SYNAPSE APP-SERVICE
 #=================================================
 
-$final_path/bin/python3 -m mautrix_signal -g -c $final_path/config.yaml -r /etc/matrix-$synapse_instance/app-service/$app.yaml
+$final_path/bin/python3 -m mautrix_instagram -g -c $final_path/config.yaml -r /etc/matrix-$synapse_instance/app-service/$app.yaml
 
 /opt/yunohost/matrix-$synapse_instance/update_synapse_for_appservice.sh \
     || ynh_die "Synapse can't restart with the appservice configuration"
