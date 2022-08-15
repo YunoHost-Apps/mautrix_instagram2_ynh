@@ -34,8 +34,8 @@
                 "name": "synapsenumber",
                 "type": "string",
                 "ask": {
-                    "en": "Choose the local synapse instance number to communicate with mautrix_telegram",
-                    "fr": "Choisissez le numéro de l'instance synapse qui doit communiquer avec mautrix_telegram"
+                    "en": "Choose the local synapse instance number to communicate with mautrix_instagram",
+                    "fr": "Choisissez le numéro de l'instance synapse qui doit communiquer avec mautrix_instagram"
                 },
                 "example": "2 (for instance synapse__2)",
                 "help": {
